@@ -1,0 +1,134 @@
+html {
+    size: 100%;
+}
+
+body {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+}
+
+.main {
+    position: absolute;
+    background: rgb(230, 164, 164);
+    width: 30rem;
+    height: 7rem;
+    text-align: center;
+    top: 17rem;
+    left: 30rem;
+    border-radius: 10px;
+
+}
+
+.input {
+    margin: 40px;
+    position: relative;
+    border-radius: 3px;
+    width: 13rem;
+    height: 1.8rem;
+    border: 1px;
+}
+
+.btn {
+    position: absolute;
+    left: 1.5rem;
+    top: 2.7rem;
+    transition: 1s;
+    background-color: azure;
+    color: rgb(230, 164, 164);
+    box-shadow: 1px 0px;
+    cursor: pointer;
+    width: 6rem;
+    height: 1.5rem;
+    border-color: rgba(255, 255, 255, 0.26);
+}
+
+
+
+.bottom {
+    border-radius: 10px;
+    background-color: rgb(230, 164, 164);
+    position: absolute;
+    width: 23rem;
+    height: 11rem;
+    top: 23.5rem;
+    left: 33.5rem;
+    display: grid;
+}
+
+
+.checkbox-num {
+    position: absolute;
+    top:5rem;
+    left: 1rem;
+    transform: scale(1.5);
+
+}
+
+.checkbox-sym {
+    position: absolute;
+    top:8rem;
+    left: 1rem;
+    transform: scale(1.5);
+
+}
+
+.label {
+    left: 2.5rem;
+    color: azure;
+    font-size: 3vh;
+}
+
+.num {
+    position: absolute;
+    top: 4.8rem;
+
+}
+
+
+.sym {
+    position: absolute;
+    top: 7.8rem;
+
+}
+
+.input-length {
+    width: 3.5rem;
+    height: 1rem;
+    position: absolute;
+    top:2.5rem;
+    left: 2rem;
+}
+
+.label-length {
+    position: absolute;
+    left: 1.5rem;
+    color: azure;
+    font-size: 3vh;
+    top:0.5rem;
+}
+
+.btn-length {
+    background-color: azure;
+    color: rgb(230, 164, 164);
+    box-shadow: 1px 0px;
+    cursor: pointer;
+    height: 1.5rem;
+    position: absolute;
+    width: 4;
+    left: 6.5rem;
+    top:2.5rem;
+    border-color: rgba(255, 255, 255, 0.26);
+}
+
+.btn-copy {
+    position: absolute;
+    left: 22rem;
+    top: 2.6rem;
+    transition: 1s;
+    background-color: azure;
+    color: rgb(230, 164, 164);
+    /* border: 1px; */
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 2rem;
+    height: 1.7rem;
+}
