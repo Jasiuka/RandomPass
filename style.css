@@ -36,7 +36,7 @@
     .AllContent {
         position: absolute;
         top: -4rem;
-        left: -3rem;
+        left: -14rem;
     }
 }
 
@@ -125,9 +125,9 @@ body {
 }
 
 .label {
-    left: 2.5rem;
+    left: 2.85rem;
     color: azure;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .num {
@@ -153,9 +153,9 @@ body {
 
 .label-length {
     position: absolute;
-    left: 1.5rem;
+    left: 1.3rem;
     color: azure;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     top:0.5rem;
 }
 
