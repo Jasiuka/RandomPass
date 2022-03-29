@@ -61,11 +61,17 @@ const symbolBoolTurn = function() {
 }
 
 const copyPass = function() {
-    PassInput.select();
-    PassInput.setSelectionRange(0, 99999);
+    PassInput.value.select();
+    PassInput.value.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(PassInput.value)
     alert(`Password copied: ${PassInput.value}`)
 }
+
+// btnCopy.addEventListener('click', function() {
+//     PassInput.select();
+//     PassInput.setSelectionRange(0, 99999);
+//     document.execCommand('copy')
+// })
 
 // BUTTONS
 btnLength.addEventListener('click', function() {
@@ -114,5 +120,3 @@ btnGenerate.addEventListener('click', function() {
     password = [];
 
 })
-
-
