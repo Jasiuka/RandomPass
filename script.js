@@ -62,6 +62,8 @@ const symbolBoolTurn = function() {
 }
 
 const copyPass = function() {
+    PassInput.select();
+    PassInput.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(PassInput.value)
     alert(`Password copied: ${PassInput.value}`)
 }

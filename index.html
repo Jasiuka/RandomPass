@@ -9,23 +9,25 @@
     <title>Random Password Generator</title>
 </head>
 <body>
-    <div class="main bottom">
-        <input class="checkbox-num" type="checkbox" value="turn" onclick="numberBoolTurn()" o >
-        <label for="checkbox-num" class="label num">Include numbers to password</label>
-        <input class="checkbox-sym" type="checkbox" value="turne" onclick="symbolBoolTurn()" o />
-        <label for="checkbox-sym" class="label sym">Include symbols to password</label>
-        <input class="input-length" type="number" max="24" min="7" placeholder="length">
-        <button class="btn-length">submit</button> 
-        <label for="checkbox-sym" class="label-length">Password length (Min: 7 | Max: 24)</label>
-    </div>
-    <div class="main">
-        <input readonly type="text" class="input" />
-        <button class="btn" >
-            generate
-            <i class="fa-solid fa-arrows-rotate"></i>
-        </button>
-        <button class="btn-copy"><i class="fa-regular fa-copy" title="COPY" onclick="copyPass()"></i></button>
-        
+    <div class="AllContent">
+        <div class="main bottom">
+            <input class="checkbox-num" type="checkbox" value="turn" onclick="numberBoolTurn()" o >
+            <label for="checkbox-num" class="label num">Include numbers to password</label>
+            <input class="checkbox-sym" type="checkbox" value="turne" onclick="symbolBoolTurn()" o />
+            <label for="checkbox-sym" class="label sym">Include symbols to password</label>
+            <input class="input-length" type="number" max="24" min="7" placeholder="length">
+            <button class="btn-length">submit</button> 
+            <label for="checkbox-sym" class="label-length">Password length (Min: 7 | Max: 24)</label>
+        </div>
+        <div class="main">
+            <input readonly type="text" class="input" />
+            <button class="btn" >
+                generate
+                <i class="fa-solid fa-arrows-rotate"></i>
+            </button>
+            <button class="btn-copy"><i class="fa-regular fa-copy" title="COPY" onclick="copyPass()"></i></button>
+            
+        </div>
     </div>
     
     

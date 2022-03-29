@@ -1,8 +1,47 @@
-html {
-    size: 100%;
+@media only screen and (min-width: 600px) {
+
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    .AllContent {
+        position: absolute;
+        left: -13rem;
+        top: -13rem;
+    }
 }
 
+@media only screen and (min-width: 992px) {
+
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    .AllContent {
+        position: absolute;
+        top: -4rem;
+        left: 2rem;
+    }
+}
+
+/* @media only screen and (min-width: 768px) {
+
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    .AllContent {
+        position: absolute;
+        top: -10rem;
+        left: -10rem;
+    }
+}     */
+
 body {
+    size: 100%;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
 }
 
@@ -74,7 +113,7 @@ body {
 .label {
     left: 2.5rem;
     color: azure;
-    font-size: 3vh;
+    font-size: 1.3rem;
 }
 
 .num {
@@ -102,7 +141,7 @@ body {
     position: absolute;
     left: 1.5rem;
     color: azure;
-    font-size: 3vh;
+    font-size: 1.3rem;
     top:0.5rem;
 }
 
@@ -132,3 +171,9 @@ body {
     width: 2rem;
     height: 1.7rem;
 }
+
+/* .AllContent {
+    position: absolute;
+    left: -10rem;
+    top: -12rem;
+} */
