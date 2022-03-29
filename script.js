@@ -17,7 +17,6 @@ const numbersArr = [1,2,3,4,5,6,7,8,9,0];
 
 
 const letters = lettersLower.split(' ').concat(lettersUpper.split(' '));
-console.log(letters)
 const symbolsArr = symbols.split(' ')
 let password = [];
 
