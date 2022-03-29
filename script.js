@@ -34,12 +34,7 @@ const symbolBoolTurn = function() {
     } else symbolsBool = false
 }
 
-const copyPass = function() {
-    PassInput.select(PassInput.value);
-    PassInput.setSelectionRange(0, 99999);
-    navigator.clipboard.writeText(PassInput.value)
-    alert(`Password copied: ${PassInput.value}`)
-}
+let passText = ''
 
 // BUTTONS
 btnLength.addEventListener('click', function() {
@@ -88,3 +83,10 @@ btnGenerate.addEventListener('click', function() {
     password = [];
 
 })
+
+const copyPass = function() {
+    PassInput.select();
+    PassInput.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(PassInput.value)
+    alert(`Password copied: ${PassInput.value}`)
+}
