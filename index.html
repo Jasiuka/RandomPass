@@ -1,38 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Random Password Generator</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="AllContent">
-        <div class="main bottom">
-            <input class="checkbox-num" type="checkbox" value="turn" onclick="numberBoolTurn()" o >
-            <label for="checkbox-num" class="label num">Include numbers to password</label>
-            <input class="checkbox-sym" type="checkbox" value="turne" onclick="symbolBoolTurn()" o />
-            <label for="checkbox-sym" class="label sym">Include symbols to password</label>
-            <input class="input-length" type="number" max="24" min="7" placeholder="length">
-            <button class="btn-length">submit</button> 
-            <label for="checkbox-sym" class="label-length">Password length (Min: 7 | Max: 24)</label>
-        </div>
-        <div class="main">
-            <input readonly type="text" class="input" />
-            <button class="btn" >
-                generate
-                <i class="fa-solid fa-arrows-rotate"></i>
-            </button>
-            <button class="btn-copy"><i class="fa-regular fa-copy" title="COPY" onclick="copyPass()"></i></button>
-            
-        </div>
-    </div>
-    
-    
-    
-    <script src="script.js"></script>
-</body>
-</html>
+      <div class="main">
+        <input readonly type="text" class="input" />
+        <button class="btn">
+          generate
+          <i class="fa-solid fa-arrows-rotate"></i>
+        </button>
+        <button class="btn-copy">
+          <i class="fa-regular fa-copy" title="COPY" onclick="copyPass()"></i>
+        </button>
+      </div>
 
+      <div class="main bottom">
+        <div class="input-lenght-cont">
+          <input
+            class="input-length"
+            type="number"
+            max="24"
+            min="7"
+            placeholder="length"
+          />
+          <label for="checkbox-sym" class="label-length"
+            >Password length (Min: 7 | Max: 24)</label
+          >
+        </div>
+        <button class="btn-length">submit</button>
+
+        <div class="container-num">
+          <input
+            class="checkbox-num"
+            type="checkbox"
+            value="turn"
+            onclick="numberBoolTurn()"
+            o
+          />
+          <label for="checkbox-num" class="label num"
+            >Include numbers to password</label
+          >
+        </div>
+        <div class="container-sym">
+          <input
+            class="checkbox-sym"
+            type="checkbox"
+            value="turne"
+            onclick="symbolBoolTurn()"
+            o
+          />
+          <label for="checkbox-sym" class="label sym"
+            >Include symbols to password</label
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
